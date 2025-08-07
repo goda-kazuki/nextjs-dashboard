@@ -1,8 +1,15 @@
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'customers',
+};
+
+
 export default function Page() {
   return (
     <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to the dashboard!</p>
+      <h1>Customers</h1>
+      <p>Welcome to the customers page!</p>
     </div>
   );
 }
